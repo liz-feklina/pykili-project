@@ -11,7 +11,7 @@ import json
 #from functools import lru_cache
 
 start_text = 'Это бот, который может сгенерировать фразу на основе разных жанров.\nЕсли ты не хочешь ничего настраивать, сразу тыкай /new. Или выбирай из предложенных вариантов то, что больше понравится :)'
-TOKEN = '1237710749:AAHZVUw3gRl1vBFpOyUUA0pl2v7yzE75knA'
+TOKEN = ''
 PORT = int(os.environ.get('PORT', '8443'))
 HEROKU_APPNAME = 'text-generating'
 genre = ['Детское', 'Роман', 'Детектив', 'Классика', 'Случайное', 'Все']
